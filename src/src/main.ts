@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 import './firebase.ts'
 import './crud.ts'
+import './update-real-time.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
